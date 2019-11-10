@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-    float centi;
+    float kilo;
 
-    cout << "Centimetros: ";
-    cin >> centi;
-    
-    cout << "Polegadas: " << centi /  2.54 << endl;
+    cout << "Quilogramas:";
+    cin >> kilo;
+
+    cout << "Libras: " << kilo / 0.45 << endl;
 
     return 0;
 }
