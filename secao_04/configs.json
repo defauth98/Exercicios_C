@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
+    "C_Cpp.updateChannel": "Insiders"
+}
