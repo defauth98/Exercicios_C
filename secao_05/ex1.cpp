@@ -17,6 +17,6 @@ int main(){
     else{
         cout << "O " << num2 << " e o maior" << endl; 
     }
-
+    
     return 0;
 }
