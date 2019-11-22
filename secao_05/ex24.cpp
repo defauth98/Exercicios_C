@@ -4,25 +4,27 @@ using namespace std;
 
 int main(){
     float valor;
-    char estado[20];
+    string estado;
 
     cout << "Valor: ";
     cin >> valor;
 
-    cout << "Estado(MG, SP, RJ, MS): ";
+    cout << "Estado(mg, sp, rj, ms): ";
     cin >> estado;
 
-    if (estado == "MG"){
-        cout << "Valor final do produto -> " << valor + (valor * 100 / 7) << endl;
+    cout << estado << endl;
+
+    if (estado == "mg"){
+        cout << "Valor final do produto -> " << valor + (valor * 7 / 100) << endl;
     }
-    else if (estado == "SP"){
-        cout << "Valor final do produto -> " << valor + (valor * 100 / 12) << endl;
+    else if (estado == "sp"){
+        cout << "Valor final do produto -> " << valor + (valor * 12 / 100) << endl;
     }
-    else if(estado == "RJ"){
-        cout << "Valor final do produto -> " << valor +  ( valor * 100 / 15) << endl;
+    else if(estado == "rj"){
+        cout << "Valor final do produto -> " << valor + (valor * 15 / 100) << endl;
     }
-    else if(estado == "MS"){
-        cout << "Valor final do produto -> " << valor + (valor * 100 / 8) << endl;
+    else if(estado == "ms"){
+        cout << "Valor final do produto -> " << valor + (valor * 8 / 100) << endl;
     }
     else{
         cout << "Estado inválido!" << endl;
