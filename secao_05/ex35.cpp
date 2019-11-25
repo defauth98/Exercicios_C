@@ -17,7 +17,7 @@ int main(){
     if( (mes <= 12) && (mes >= 1)){
         if (ano % 400 == 0){
             if (dia <= 29){
-                //ano bisexto
+                cout << "Data válida" << endl;
             }
             else{
                 cout << "Data invalida! " << endl;
