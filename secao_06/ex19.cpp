@@ -3,15 +3,18 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    int num;
+    int num,num1,num2;
 
     cout << "Numero: ";
     cin >> num;
 
-    for (int i; i < 3; i++){
-        num/=10;
+    num1 = num;
+    cout << (num1 / 100) % 10 << " ";
+    
+    num2 = num;
+    cout << (num2 / 10) % 10 << " ";
 
-        cout << num % 10 << endl;
-    }
+    cout << num % 10 << endl;
+
     return 0;
 }
