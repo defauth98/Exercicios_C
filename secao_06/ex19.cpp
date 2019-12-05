@@ -3,16 +3,15 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    int num,soma=0;
+    int num;
 
     cout << "Numero: ";
     cin >> num;
 
-    for (int c=0; c <= num; c++){
-        soma+=c;
+    for (int i; i < 3; i++){
+        num/=10;
+
+        cout << num % 10 << endl;
     }
-
-    cout << "Soma: " << soma << endl;
-
     return 0;
 }
