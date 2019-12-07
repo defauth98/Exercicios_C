@@ -10,8 +10,8 @@ int main(int argc, char *argv[]){
 
     cout << "I: ";
     cin >> i;
-
     cout << "J: ";
+
     cin >> j;
 
     while(true){
